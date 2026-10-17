@@ -46,11 +46,11 @@ Song sections were chosen for what is on screen rather than following the traile
 
 | Timeline | Picture | Song |
 | --- | --- | --- |
-| 0–6.1 | The Keys → balcony (dialogue) | Same passage with vocals and drums muted: low-passed keys and bass, 6 dB under the voices |
-| 6.26 | Balcony | “Only love…” pickup into the drop |
+| 0–3.6 | The Keys → intimacy (dialogue) | Same passage with vocals and drums muted: low-passed keys and bass, 6 dB under the voices |
+| 3.6–6.45 | Intimacy → balcony | Build: keys and bass filters open, high-passed drums creep in, level rises out of the duck, “Only love…” fades in from 5.9 s |
 | 6.453 | Drift (drop) | Drums crash in on the downbeat: “…never hesitates” over the shootout and motorcycle leap |
 | 10.22 | Pink-smoke plane → vault approach | “Only trust has a price to pay” |
 | 14.02 | Neon-club twirl → night pursuit | “Like a flower in a hurricane” |
 | 16.97–19.13 | Helicopter through glass, hanging over Vice City | “I will die before I walk away”: band stripped to kick and keys, reverb on the vocal |
 | 19.133 | The jump into the pool | Band crashes back: “walk away, walk away” |
-| 21.567 | Logo → slate | The song's final chord with a 4.5 s reverb tail under the voiceover |
+| 21.567 | Logo → slate | Carries straight on, on the bar, into the song's full-band instrumental (song ~111.9 s, no vocals). It eases down 10 dB over 21.85–23.15 s as the voiceover starts, then glides out by the PlayStation sting. |
