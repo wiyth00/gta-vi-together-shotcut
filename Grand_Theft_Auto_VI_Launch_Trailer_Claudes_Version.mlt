@@ -1632,7 +1632,7 @@
     <property name="shotcut:projectFolder">1</property>
     <property name="shotcut:trackHeight">80</property>
     <property name="shotcut:scaleFactor">3.2</property>
-    <property name="shotcut:name">Together — 30-second spot (V7 Claude score)</property>
+    <property name="shotcut:name">Grand Theft Auto VI Launch Trailer (Claude's Version)</property>
     <property name="shotcut:projectNotes">Read START_HERE.md and DESKTOP_HANDOFF.md. Final: exactly 900 frames at 30 fps. PlayStation bumper starts 27.000 s with music underneath its silent lead-in. Independent trailer and PlayStation audio. Stereo source mix, not isolated dialogue/music. Reference MP4 is separately mastered.</property>
     <property name="shotcut:skipConvert">0</property>
     <property name="shotcut:processingMode">Native8Cpu</property>

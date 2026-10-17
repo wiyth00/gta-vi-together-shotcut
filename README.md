@@ -1,6 +1,8 @@
-# GTA VI — Together
+# Grand Theft Auto VI Launch Trailer (Claude's Version)
 
 An editable 30-second, 4K Shotcut fan-edit project, with its source media, exports, and review handoff.
+
+**Definitive edition:** [Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mlt](Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mlt). Watch [the 4K export](Reference/Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mp4).
 
 ## Versions
 
@@ -11,9 +13,9 @@ An editable 30-second, 4K Shotcut fan-edit project, with its source media, expor
 | Candidate V4 (review fixes) | [Together_4K_HQ_Bumper_V4.mlt](Together_4K_HQ_Bumper_V4.mlt) | [V4 4K MP4](Reference/Together_4K_HQ_Bumper_30s_V4.mp4) |
 | V5 own music mix | [Together_4K_HQ_Bumper_V5_OwnMix.mlt](Together_4K_HQ_Bumper_V5_OwnMix.mlt) | [V5 4K MP4](Reference/Together_4K_HQ_Bumper_30s_V5_OwnMix.mp4) |
 | V6 Claude stem remix | [Together_4K_HQ_Bumper_V6_ClaudeRemix.mlt](Together_4K_HQ_Bumper_V6_ClaudeRemix.mlt) | [V6 4K MP4](Reference/Together_4K_HQ_Bumper_30s_V6_ClaudeRemix.mp4) |
-| **V7 Claude score — current** | [Together_4K_HQ_Bumper_V7_ClaudeScore.mlt](Together_4K_HQ_Bumper_V7_ClaudeScore.mlt) | [V7 4K MP4](Reference/Together_4K_HQ_Bumper_30s_V7_ClaudeScore.mp4) |
+| **V7 — Grand Theft Auto VI Launch Trailer (Claude's Version), definitive** | [Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mlt](Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mlt) | [V7 4K MP4](Reference/Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mp4) |
 
-**V7 is the current version** (see [CURRENT_VERSION.md](CURRENT_VERSION.md)). V4 applies the review notes to the candidate; see [Editing/V4_NOTES.md](Editing/V4_NOTES.md).
+**V7 is the definitive edition** (see [CURRENT_VERSION.md](CURRENT_VERSION.md)). V4 applies the review notes to the candidate; see [Editing/V4_NOTES.md](Editing/V4_NOTES.md).
 
 The full-length remix of the song is in [Remix/](Remix/); see [Editing/REMIX_NOTES.md](Editing/REMIX_NOTES.md).
 

@@ -1,8 +1,10 @@
-# Current version
+# Current version: Grand Theft Auto VI Launch Trailer (Claude's Version)
 
-Open **Together_4K_HQ_Bumper_V7_ClaudeScore.mlt** in Shotcut.
+This is the definitive edition (V7).
 
-Watch **Reference/Together_4K_HQ_Bumper_30s_V7_ClaudeScore.mp4** for the final export.
+Open **Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mlt** in Shotcut.
+
+Watch **Reference/Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mp4** for the final export.
 
 3840 × 2160, 30 fps, exactly 30 seconds. The picture has the V4 review fixes:
 - the logo reveal uses the trailer's own city dissolve;

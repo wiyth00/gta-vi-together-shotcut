@@ -40,7 +40,7 @@ The picture is identical to V4 and V5. The bed is `Media/Trailer_Audio_Claude_Re
 
 Not verified by ear.
 
-## V7 Claude score: `../Together_4K_HQ_Bumper_V7_ClaudeScore.mlt`
+## V7 Claude score: `../Grand_Theft_Auto_VI_Launch_Trailer_Claudes_Version.mlt`
 
 Song sections were chosen for what is on screen rather than following the trailer's own music edit. It is one continuous run of the song, song = timeline + 73.237 s, so the drop lands on a downbeat of the 126.05 BPM grid. The bed is `Media/Trailer_Audio_Claude_Score_V7.wav`, built by `remix_tools/build_trailer_v7.py`; the voices are the same as V5 and V6.
 
