@@ -1,0 +1,355 @@
+{
+  "fps": 30,
+  "duration": 30,
+  "audio_source_ranges": [
+    {
+      "timeline": [
+        0.0,
+        6.433333
+      ],
+      "rockstar_4k_source": [
+        62.098,
+        68.531333
+      ],
+      "note": "Opening dialogue with Mid/Side presence shaping"
+    },
+    {
+      "timeline": [
+        6.433333,
+        11.03
+      ],
+      "rockstar_4k_source": [
+        52.821333,
+        57.418
+      ],
+      "note": "Montage Pt 1 through full 57-frame Wing-walker pass (cuts before off-screen mud-truck SFX)"
+    },
+    {
+      "timeline": [
+        11.03,
+        13.566667
+      ],
+      "rockstar_4k_source": [
+        27.901354,
+        30.438021
+      ],
+      "note": "Clean Chorus bar locked to 42-frame Vault approach (11.200s) and 29-frame Rooftop fireworks (12.600s)"
+    },
+    {
+      "timeline": [
+        13.566667,
+        22.733333
+      ],
+      "rockstar_4k_source": [
+        68.533333,
+        77.7
+      ],
+      "note": "Final Chorus locked 1:1 to Pool Jump splash and GTA VI Logo Reveal at 21.567s"
+    },
+    {
+      "timeline": [
+        22.733333,
+        28.0
+      ],
+      "rockstar_4k_source": [
+        79.128,
+        84.394667
+      ],
+      "note": "Continuous Vice City aerial glide, Announcer voiceover, Pre-Order card & shaped PS sting handoff"
+    }
+  ],
+  "version": "Candidate V4: review fixes (logo-reveal background, Jason L-cut, smoothed VO ending, night-only back half, PS-only slate, full-frame PS outro)",
+  "source": "Media/Trailer_Source_Rockstar_4K.mp4",
+  "source_width": 3840,
+  "source_height": 2160,
+  "audio_sample_rate": 48000,
+  "audio_note": "Trailer audio is a recut of the source stereo mix, not isolated music/dialogue stems. PS audio is independent at timeline 27.000 seconds.",
+  "ps_audio_in": 27.0,
+  "ps_audio_source_in": 88.0,
+  "ps_audio_source_out": 90.0,
+  "music_tail_end": 28.0,
+  "interval_convention": "All JSON/CSV out positions are exclusive; MLT out positions are inclusive.",
+  "source_alignment_offset_frames": 20,
+  "bumper_note": "3840x2160 YouTube source video frames 2640–2699, followed by a hold from its final frame. Audio preserved from alternate mix.",
+  "shots": [
+    {
+      "shot": "The Keys (with Rockstar Games Presents overlay)",
+      "timeline_in": 0.0,
+      "timeline_out": 1.9666666666666666,
+      "source_in": 3.066666666666667,
+      "source_out": 5.033333333333333,
+      "timeline_in_frame": 0,
+      "timeline_out_frame_exclusive": 59,
+      "source_in_frame": 92,
+      "source_out_frame_exclusive": 151,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Jason and Lucia, cruising",
+      "timeline_in": 1.9666666666666666,
+      "timeline_out": 3.433333333333333,
+      "source_in": 26.366666666666667,
+      "source_out": 27.833333333333332,
+      "timeline_in_frame": 59,
+      "timeline_out_frame_exclusive": 103,
+      "source_in_frame": 791,
+      "source_out_frame_exclusive": 835,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Intimacy",
+      "timeline_in": 3.433333333333333,
+      "timeline_out": 4.966666666666667,
+      "source_in": 36.46666666666667,
+      "source_out": 38.0,
+      "timeline_in_frame": 103,
+      "timeline_out_frame_exclusive": 149,
+      "source_in_frame": 1094,
+      "source_out_frame_exclusive": 1140,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Together on the balcony",
+      "timeline_in": 4.966666666666667,
+      "timeline_out": 6.433333333333334,
+      "source_in": 67.06666666666666,
+      "source_out": 68.53333333333333,
+      "timeline_in_frame": 149,
+      "timeline_out_frame_exclusive": 193,
+      "source_in_frame": 2012,
+      "source_out_frame_exclusive": 2056,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Drift through Vice City",
+      "timeline_in": 6.433333333333334,
+      "timeline_out": 7.4,
+      "source_in": 46.96666666666667,
+      "source_out": 47.93333333333333,
+      "timeline_in_frame": 193,
+      "timeline_out_frame_exclusive": 222,
+      "source_in_frame": 1409,
+      "source_out_frame_exclusive": 1438,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Lucia returns fire (moved from 16.2 s)",
+      "timeline_in": 7.4,
+      "timeline_out": 8.4,
+      "source_in": 72.76666666666667,
+      "source_out": 73.76666666666667,
+      "timeline_in_frame": 222,
+      "timeline_out_frame_exclusive": 252,
+      "source_in_frame": 2183,
+      "source_out_frame_exclusive": 2213,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Motorcycle rooftop leap",
+      "timeline_in": 8.4,
+      "timeline_out": 9.566666666666666,
+      "source_in": 48.9,
+      "source_out": 50.06666666666667,
+      "timeline_in_frame": 252,
+      "timeline_out_frame_exclusive": 287,
+      "source_in_frame": 1467,
+      "source_out_frame_exclusive": 1502,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Pink smoke over the beach",
+      "timeline_in": 9.566666666666666,
+      "timeline_out": 11.2,
+      "source_in": 55.43333333333333,
+      "source_out": 57.06666666666667,
+      "timeline_in_frame": 287,
+      "timeline_out_frame_exclusive": 336,
+      "source_in_frame": 1663,
+      "source_out_frame_exclusive": 1712,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Vault approach",
+      "timeline_in": 11.2,
+      "timeline_out": 12.6,
+      "source_in": 35.06666666666667,
+      "source_out": 36.46666666666667,
+      "timeline_in_frame": 336,
+      "timeline_out_frame_exclusive": 378,
+      "source_in_frame": 1052,
+      "source_out_frame_exclusive": 1094,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Rooftop fireworks",
+      "timeline_in": 12.6,
+      "timeline_out": 13.566666666666666,
+      "source_in": 52.96666666666667,
+      "source_out": 53.93333333333333,
+      "timeline_in_frame": 378,
+      "timeline_out_frame_exclusive": 407,
+      "source_in_frame": 1589,
+      "source_out_frame_exclusive": 1618,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Neon club",
+      "timeline_in": 13.566666666666666,
+      "timeline_out": 14.5,
+      "source_in": 38.0,
+      "source_out": 38.93333333333333,
+      "timeline_in_frame": 407,
+      "timeline_out_frame_exclusive": 435,
+      "source_in_frame": 1140,
+      "source_out_frame_exclusive": 1168,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Night pursuit",
+      "timeline_in": 14.5,
+      "timeline_out": 15.5,
+      "source_in": 71.06666666666666,
+      "source_out": 72.06666666666666,
+      "timeline_in_frame": 435,
+      "timeline_out_frame_exclusive": 465,
+      "source_in_frame": 2132,
+      "source_out_frame_exclusive": 2162,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Jason on the rifle",
+      "timeline_in": 15.5,
+      "timeline_out": 16.2,
+      "source_in": 72.06666666666666,
+      "source_out": 72.76666666666667,
+      "timeline_in_frame": 465,
+      "timeline_out_frame_exclusive": 486,
+      "source_in_frame": 2162,
+      "source_out_frame_exclusive": 2183,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Masked partners (night, replaces daytime shootout)",
+      "timeline_in": 16.2,
+      "timeline_out": 17.2,
+      "source_in": 59.9,
+      "source_out": 60.9,
+      "timeline_in_frame": 486,
+      "timeline_out_frame_exclusive": 516,
+      "source_in_frame": 1797,
+      "source_out_frame_exclusive": 1827,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Helicopter through glass",
+      "timeline_in": 17.2,
+      "timeline_out": 18.4,
+      "source_in": 68.53333333333333,
+      "source_out": 69.73333333333333,
+      "timeline_in_frame": 516,
+      "timeline_out_frame_exclusive": 552,
+      "source_in_frame": 2056,
+      "source_out_frame_exclusive": 2092,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Hanging over Vice City",
+      "timeline_in": 18.4,
+      "timeline_out": 19.133333333333333,
+      "source_in": 69.93333333333334,
+      "source_out": 70.66666666666667,
+      "timeline_in_frame": 552,
+      "timeline_out_frame_exclusive": 574,
+      "source_in_frame": 2098,
+      "source_out_frame_exclusive": 2120,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "The jump",
+      "timeline_in": 19.133333333333333,
+      "timeline_out": 21.566666666666666,
+      "source_in": 74.1,
+      "source_out": 76.53333333333333,
+      "timeline_in_frame": 574,
+      "timeline_out_frame_exclusive": 647,
+      "source_in_frame": 2223,
+      "source_out_frame_exclusive": 2296,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Grand Theft Auto VI (Logo Reveal)",
+      "timeline_in": 21.566666666666666,
+      "timeline_out": 22.3,
+      "source_in": 76.53333333333333,
+      "source_out": 77.26666666666667,
+      "timeline_in_frame": 647,
+      "timeline_out_frame_exclusive": 669,
+      "source_in_frame": 2296,
+      "source_out_frame_exclusive": 2318,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "Grand Theft Auto VI (native city fade-in & glide)",
+      "timeline_in": 22.3,
+      "timeline_out": 24.666666666666668,
+      "source_in": 78.33333333333333,
+      "source_out": 80.7,
+      "timeline_in_frame": 669,
+      "timeline_out_frame_exclusive": 740,
+      "source_in_frame": 2350,
+      "source_out_frame_exclusive": 2421,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "November 19, 2026 (Xbox logo removed, PS5 centred)",
+      "timeline_in": 24.666666666666668,
+      "timeline_out": 27.0,
+      "source_in": 80.7,
+      "source_out": 83.03333333333333,
+      "timeline_in_frame": 740,
+      "timeline_out_frame_exclusive": 810,
+      "source_in_frame": 2421,
+      "source_out_frame_exclusive": 2491,
+      "source": "Media/Trailer_Source_Rockstar_4K.mp4"
+    },
+    {
+      "shot": "PlayStation sting (full-frame)",
+      "timeline_in": 27.0,
+      "timeline_out": 29.0,
+      "source_in": 88.0,
+      "source_out": 90.0,
+      "timeline_in_frame": 810,
+      "timeline_out_frame_exclusive": 870,
+      "source_in_frame": 2640,
+      "source_out_frame_exclusive": 2700,
+      "source": "Media/PlayStation_YouTube_4K_Source.webm"
+    },
+    {
+      "shot": "PlayStation logo hold (full-frame)",
+      "timeline_in": 29.0,
+      "timeline_out": 30.0,
+      "still": "Media/PlayStation_Final_Frame_4K.png",
+      "timeline_in_frame": 870,
+      "timeline_out_frame_exclusive": 900,
+      "source": "Media/PlayStation_Final_Frame_4K.png"
+    }
+  ],
+  "audio_bed": "Media/Trailer_Audio_Candidate_V4.wav (derived from Trailer_Audio_Candidate_Polish.wav; see Editing/V4_NOTES.md)",
+  "overlays": [
+    {
+      "track": "V3",
+      "media": "Media/Slate_Clean_Plate_4K.mov",
+      "timeline_in_frame": 751,
+      "timeline_out_frame_exclusive": 810,
+      "note": "Feathered clean plate hiding Xbox Series X|S and original PS5 logo"
+    },
+    {
+      "track": "V4",
+      "media": "Media/Trailer_Source_Rockstar_4K.mp4",
+      "source_in_frame": 2432,
+      "timeline_in_frame": 751,
+      "timeline_out_frame_exclusive": 810,
+      "note": "PS5 logo cropped and moved +362 px to centre, Lighten blend"
+    }
+  ]
+}
