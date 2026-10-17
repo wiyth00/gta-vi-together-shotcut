@@ -8,7 +8,7 @@ Song = timeline + 73.237 s (drop on a downbeat; 126.05 BPM grid) from 0 s to the
  16.97-19.13  "I will die before I walk away" - band stripped to kick + keys over the helicopter / hanging shots
  19.133       band crashes back on the jump into the pool: "walk away, walk away"
  21.567       logo: carries on the bar into the song's full-band instrumental (song ~111.9 s), then fades slowly -
-              -10 dB over 21.85-23.15 s as the voiceover starts, then gliding out by the PlayStation sting
+              -6 dB over 21.85-23.0 s and held under the voiceover (drums still driving), -10 dB into "Play has no limits", gone as the PlayStation chime starts at 27.68 s
 Usage: build_trailer_v7.py <scratch_dir>"""
 import sys, subprocess, numpy as np
 sys.path.insert(0,"Editing/remix_tools")
@@ -40,8 +40,8 @@ riser2=m.riser(JUMP-4*BEAT,JUMP-0.02,0.035,seed=7)
 gap=np.ones(N); pre=np.zeros((N,2))
 music=dr+ba+ot+vo+riser+riser2
 music*=(G*duck)[:,None]
-fade_db=-10*m.ramp(21.85,23.15)-8*m.ramp(23.15,26.4)           # full through the logo hit, easing under the VO
-music*=(10**(fade_db/20)*(1-m.ramp(25.6,26.95)))[:,None]       # gone by the PlayStation sting
+fade_db=-6*m.ramp(21.85,23.0)-4*m.ramp(26.85,27.1)             # full through the logo hit, -6 dB under the VO, quieter into "Play has no limits"
+music*=(10**(fade_db/20)*(1-m.ramp(27.52,27.68)))[:,None]      # gone as the PlayStation chime starts (27.68 s)
 # voices (same as V5)
 def gate(v):
     e=np.sqrt(np.convolve((v**2).mean(1),np.ones(2400)/2400,"same"))+1e-9; d=20*np.log10(e)

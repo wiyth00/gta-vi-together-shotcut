@@ -53,4 +53,4 @@ Song sections were chosen for what is on screen rather than following the traile
 | 14.02 | Neon-club twirl → night pursuit | “Like a flower in a hurricane” |
 | 16.97–19.13 | Helicopter through glass, hanging over Vice City | “I will die before I walk away”: band stripped to kick and keys, reverb on the vocal |
 | 19.133 | The jump into the pool | Band crashes back: “walk away, walk away” |
-| 21.567 | Logo → slate | Carries straight on, on the bar, into the song's full-band instrumental (song ~111.9 s, no vocals). It eases down 10 dB over 21.85–23.15 s as the voiceover starts, then glides out by the PlayStation sting. |
+| 21.567 | Logo → slate | Carries straight on, on the bar, into the song's full-band instrumental (song ~111.9 s, no vocals). It eases down 6 dB over 21.85–23.0 s and holds there under the voiceover, with the drums still driving. It drops another 4 dB into “Play has no limits” and is gone as the PlayStation chime starts at 27.68 s. |
