@@ -9,6 +9,7 @@ An editable 30-second, 4K Shotcut fan-edit project, with its source media, expor
 | Codex baseline / alternate mix | [Together_4K_HQ_Bumper.mlt](Together_4K_HQ_Bumper.mlt) | [4K MP4](Reference/Together_4K_HQ_Bumper_30s.mp4) |
 | Gemini polish candidate | [Together_4K_HQ_Bumper_Candidate.mlt](Together_4K_HQ_Bumper_Candidate.mlt) | [Candidate 4K MP4](Reference/Together_4K_HQ_Bumper_30s_Candidate.mp4) |
 | Candidate V4 (review fixes) | [Together_4K_HQ_Bumper_V4.mlt](Together_4K_HQ_Bumper_V4.mlt) | [V4 4K MP4](Reference/Together_4K_HQ_Bumper_30s_V4.mp4) |
+| V5 own music mix | [Together_4K_HQ_Bumper_V5_OwnMix.mlt](Together_4K_HQ_Bumper_V5_OwnMix.mlt) | [V5 4K MP4](Reference/Together_4K_HQ_Bumper_30s_V5_OwnMix.mp4) |
 
 V4 applies the review notes to the candidate; see [Editing/V4_NOTES.md](Editing/V4_NOTES.md).
 
