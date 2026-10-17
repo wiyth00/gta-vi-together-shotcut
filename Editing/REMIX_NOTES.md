@@ -39,3 +39,18 @@ The picture is identical to V4 and V5. The bed is `Media/Trailer_Audio_Claude_Re
 | 21.567 | Logo: the song's final chord with a 4.5 s reverb tail under the voiceover, clear by the PlayStation sting |
 
 Not verified by ear.
+
+## V7 Claude score: `../Together_4K_HQ_Bumper_V7_ClaudeScore.mlt`
+
+Song sections were chosen for what is on screen rather than following the trailer's own music edit. It is one continuous run of the song, song = timeline + 73.237 s, so the drop lands on a downbeat of the 126.05 BPM grid. The bed is `Media/Trailer_Audio_Claude_Score_V7.wav`, built by `remix_tools/build_trailer_v7.py`; the voices are the same as V5 and V6.
+
+| Timeline | Picture | Song |
+| --- | --- | --- |
+| 0–6.1 | The Keys → balcony (dialogue) | Same passage with vocals and drums muted: low-passed keys and bass, 6 dB under the voices |
+| 6.26 | Balcony | “Only love…” pickup into the drop |
+| 6.453 | Drift (drop) | Drums crash in on the downbeat: “…never hesitates” over the shootout and motorcycle leap |
+| 10.22 | Pink-smoke plane → vault approach | “Only trust has a price to pay” |
+| 14.02 | Neon-club twirl → night pursuit | “Like a flower in a hurricane” |
+| 16.97–19.13 | Helicopter through glass, hanging over Vice City | “I will die before I walk away”: band stripped to kick and keys, reverb on the vocal |
+| 19.133 | The jump into the pool | Band crashes back: “walk away, walk away” |
+| 21.567 | Logo → slate | The song's final chord with a 4.5 s reverb tail under the voiceover |
