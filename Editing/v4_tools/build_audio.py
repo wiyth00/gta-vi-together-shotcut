@@ -4,6 +4,14 @@ def rd(p):
     raw=subprocess.run(["ffmpeg","-loglevel","error","-i",p,"-f","f32le","-ac","2","-ar","48000","-"],capture_output=True).stdout
     return np.frombuffer(raw,np.float32).reshape(-1,2).astype(np.float64)
 bed=rd("Media/Trailer_Audio_Candidate_Polish.wav"); proc=rd(f"{S}/bed_proc.wav")[:len(bed)]; src=rd(f"{S}/src_tail.wav")
+# 0) 11.03 s instrumental -> vocal chorus edit: 0.5 s equal-power crossfade, vocal section pre-rolled from source
+pre=rd(f"{S}/src_xf.wav")  # source 27.0-29.0 s, unprocessed
+e=int(round(11.03*R)); X=int(0.5*R); p0=int(round((27.901354-27.0)*R))
+gm=np.sqrt((bed[e:e+int(0.4*R)]**2).mean()/((pre[p0:p0+int(0.4*R)]**2).mean()+1e-12))
+k=np.arange(X)/X
+bed=bed.copy()
+bed[e-X:e]=bed[e-X:e]*np.cos(0.5*np.pi*k)[:,None]+pre[p0-X:p0]*(gm*np.sin(0.5*np.pi*k))[:,None]
+print("xfade gain",round(gm,3))
 n=len(bed); t=np.arange(n)/R
 def ramp(t0,t1):  # cosine 0->1
     x=np.clip((t-t0)/(t1-t0),0,1); return 0.5-0.5*np.cos(np.pi*x)
