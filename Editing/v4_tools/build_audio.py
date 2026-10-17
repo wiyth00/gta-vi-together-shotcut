@@ -4,14 +4,27 @@ def rd(p):
     raw=subprocess.run(["ffmpeg","-loglevel","error","-i",p,"-f","f32le","-ac","2","-ar","48000","-"],capture_output=True).stdout
     return np.frombuffer(raw,np.float32).reshape(-1,2).astype(np.float64)
 bed=rd("Media/Trailer_Audio_Candidate_Polish.wav"); proc=rd(f"{S}/bed_proc.wav")[:len(bed)]; src=rd(f"{S}/src_tail.wav")
-# 0) 11.03 s instrumental -> vocal chorus edit: 0.5 s equal-power crossfade, vocal section pre-rolled from source
-pre=rd(f"{S}/src_xf.wav")  # source 27.0-29.0 s, unprocessed
-e=int(round(11.03*R)); X=int(0.5*R); p0=int(round((27.901354-27.0)*R))
-gm=np.sqrt((bed[e:e+int(0.4*R)]**2).mean()/((pre[p0:p0+int(0.4*R)]**2).mean()+1e-12))
-k=np.arange(X)/X
-bed=bed.copy()
-bed[e-X:e]=bed[e-X:e]*np.cos(0.5*np.pi*k)[:,None]+pre[p0-X:p0]*(gm*np.sin(0.5*np.pi*k))[:,None]
-print("xfade gain",round(gm,3))
+# 0) the chorus section entered mid-phrase at 11.03 s (source 27.901 s). Start it two beats (0.975 s at 123 BPM)
+#    earlier instead, in the instrumental gap before the vocal phrase (source 26.926 s), and rejoin the polished bed by 11.33 s.
+pre=rd(f"{S}/src_xf.wav")  # source 25.0-31.0 s, unprocessed
+def at(src_t): return int(round((src_t-25.0)*R))
+e0=11.03; d=2*60/123.0; e=e0-d
+i_e=int(round(e*R)); i_0=int(round(e0*R)); X=int(0.25*R); Y=int(0.30*R)
+# exact alignment of source to the bed's chorus (search +/-20 ms)
+ref=bed[i_0+int(0.1*R):i_0+int(0.6*R),0]; best=(-1,0)
+for lag in range(-960,961,4):
+    seg=pre[at(27.901354)+int(0.1*R)+lag:][:len(ref),0]
+    c=np.dot(ref,seg)/np.sqrt(np.dot(ref,ref)*np.dot(seg,seg)+1e-12); best=max(best,(c,lag))
+lag=best[1]; base=at(27.901354)+lag-i_0   # pre index = base + timeline index
+gm=np.sqrt((bed[i_0:i_0+int(0.4*R)]**2).mean()/((pre[base+i_0:base+i_0+int(0.4*R)]**2).mean()+1e-12))
+src_line=pre[base+i_e-X:base+i_0+Y]*gm
+new=bed.copy(); k=np.arange(X)/X
+new[i_e-X:i_e]=bed[i_e-X:i_e]*np.cos(0.5*np.pi*k)[:,None]+src_line[:X]*np.sin(0.5*np.pi*k)[:,None]
+new[i_e:i_0]=src_line[X:X+i_0-i_e]
+k=np.arange(Y)/Y
+new[i_0:i_0+Y]=src_line[X+i_0-i_e:]*(1-k)[:,None]+bed[i_0:i_0+Y]*k[:,None]
+bed=new
+print("chorus edit moved to",round(e,3),"s; align corr",round(best[0],3),"lag ms",round(lag/48,2),"gain",round(gm,3))
 n=len(bed); t=np.arange(n)/R
 def ramp(t0,t1):  # cosine 0->1
     x=np.clip((t-t0)/(t1-t0),0,1); return 0.5-0.5*np.cos(np.pi*x)
